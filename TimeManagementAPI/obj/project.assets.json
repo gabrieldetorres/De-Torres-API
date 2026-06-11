@@ -1643,11 +1643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\TimeManagementAPI.csproj",
+      "projectUniqueName": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\TimeManagementAPI.csproj",
       "projectName": "TimeManagementAPI",
-      "projectPath": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\TimeManagementAPI.csproj",
+      "projectPath": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\TimeManagementAPI.csproj",
       "packagesPath": "C:\\Users\\DE TORRES\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\obj\\",
+      "outputPath": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

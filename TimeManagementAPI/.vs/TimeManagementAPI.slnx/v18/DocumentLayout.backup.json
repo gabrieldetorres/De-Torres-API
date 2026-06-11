@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F952F456-1663-4694-98EC-C30F2F87A910}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\documents\\github\\timemanagementapi\\controllers\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F952F456-1663-4694-98EC-C30F2F87A910}|TimeManagementAPI.csproj|solutionrelative:controllers\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\de torres api\\timemanagementapi\\controllers\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:controllers\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F952F456-1663-4694-98EC-C30F2F87A910}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\documents\\github\\timemanagementapi\\models\\timeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F952F456-1663-4694-98EC-C30F2F87A910}|TimeManagementAPI.csproj|solutionrelative:models\\timeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\de torres api\\timemanagementapi\\models\\timeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:models\\timeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Times.cs",
-              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\Controllers\\Times.cs",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Controllers\\Times.cs",
               "RelativeDocumentMoniker": "Controllers\\Times.cs",
-              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\Controllers\\Times.cs",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Controllers\\Times.cs",
               "RelativeToolTip": "Controllers\\Times.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwBwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T02:41:34.082Z",
               "EditorCaption": ""
@@ -37,18 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TimeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\Models\\TimeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Models\\TimeViewModel.cs",
               "RelativeDocumentMoniker": "Models\\TimeViewModel.cs",
-              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Documents\\GitHub\\TimeManagementAPI\\Models\\TimeViewModel.cs",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Models\\TimeViewModel.cs",
               "RelativeToolTip": "Models\\TimeViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T03:18:51.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "WhenOpened": "2026-06-11T03:18:51.141Z"
             }
           ]
         }
