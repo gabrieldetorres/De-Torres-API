@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using OvertimeBl;
 using Models;
 using TimeManagementAPI.Models;
-using Microsoft.AspNetCore.Mvc;
 
 namespace TimeManagementAPI.Controllers
 {
@@ -12,18 +11,12 @@ namespace TimeManagementAPI.Controllers
     public class Times : ControllerBase
     {
         private readonly OvertimeClass _appservice;
+        private readonly EmailService _emailService;
 
-        public Times()
+        public Times(EmailService emailService)
         {
             _appservice = new OvertimeClass();
-        }
-
-     
-        [HttpGet]
-        public ActionResult<IEnumerable<OvetimeClass3>> GetTime()
-        {
-            var time = _appservice.GetTime();
-            return Ok(time);
+            _emailService = emailService;
         }
 
         [HttpPost]
@@ -44,42 +37,44 @@ namespace TimeManagementAPI.Controllers
 
             _appservice.AddTime(newTime);
 
+            _emailService.SendEmail(times.Id.ToString(), "someone@example.com"); // 👈 use a real recipient here
+
             return Ok(newTime);
         }
-
-        //[HttpPatch("{id:guid}")]
-        //public IActionResult UpdateTask(Guid id, [FromBody] TaskViewModel taskitem)
-        //{
-        //    if (taskitem == null)
-        //    {
-        //        return BadRequest("Task data is required.");
-        //    }
-
-        //    var existingTask = _appservice.GetTasks().FirstOrDefault(t => t.TaskId == id);
-
-        //    if (existingTask == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _appservice.EditTask(id, taskitem.TaskName);
-
-        //    return NoContent();
-        //}
-
-        //[HttpDelete("{id:guid}")]
-        //public IActionResult DeleteAccount(Guid id)
-        //{
-        //    var existingTasks = _appservice.GetTasks();
-
-        //    if (existingTasks == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _appservice.DeleteTask(id);
-
-        //    return NoContent();
-        //}
     }
+
+    //[HttpPatch("{id:guid}")]
+    //public IActionResult UpdateTask(Guid id, [FromBody] TaskViewModel taskitem)
+    //{
+    //    if (taskitem == null)
+    //    {
+    //        return BadRequest("Task data is required.");
+    //    }
+
+    //    var existingTask = _appservice.GetTasks().FirstOrDefault(t => t.TaskId == id);
+
+    //    if (existingTask == null)
+    //    {
+    //        return NotFound();
+    //    }
+
+    //    _appservice.EditTask(id, taskitem.TaskName);
+
+    //    return NoContent();
+    //}
+
+    //[HttpDelete("{id:guid}")]
+    //public IActionResult DeleteAccount(Guid id)
+    //{
+    //    var existingTasks = _appservice.GetTasks();
+
+    //    if (existingTasks == null)
+    //    {
+    //        return NotFound();
+    //    }
+
+    //    _appservice.DeleteTask(id);
+
+    //    return NoContent();
+    //}
 }

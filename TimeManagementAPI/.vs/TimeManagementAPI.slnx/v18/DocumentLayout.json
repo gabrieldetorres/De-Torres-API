@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\de torres api\\timemanagementapi\\controllers\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\new folder\\de-torres-api\\timemanagementapi\\controllers\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:controllers\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\de torres api\\timemanagementapi\\models\\timeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\new folder\\de-torres-api\\timemanagementapi\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\new folder\\de-torres-api\\timemanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\new folder\\de-torres-api\\timemanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\new folder\\de-torres-api\\timemanagementapi\\timemanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:timemanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|c:\\users\\de torres\\onedrive\\desktop\\new folder\\de-torres-api\\timemanagementapi\\models\\timeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCD1A8FF-AD8B-4DF6-1810-4DB034965F54}|TimeManagementAPI.csproj|solutionrelative:models\\timeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,28 +34,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T10:35:25.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-16T10:26:34.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\EmailService.cs",
+              "RelativeDocumentMoniker": "EmailService.cs",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\EmailService.cs",
+              "RelativeToolTip": "EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T10:12:02.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TimeManagementAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\TimeManagementAPI.csproj",
+              "RelativeDocumentMoniker": "TimeManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\TimeManagementAPI.csproj",
+              "RelativeToolTip": "TimeManagementAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T02:07:30.864Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Times.cs",
-              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Controllers\\Times.cs",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\Controllers\\Times.cs",
               "RelativeDocumentMoniker": "Controllers\\Times.cs",
-              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Controllers\\Times.cs",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\Controllers\\Times.cs",
               "RelativeToolTip": "Controllers\\Times.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T02:41:34.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "TimeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Models\\TimeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\Models\\TimeViewModel.cs",
               "RelativeDocumentMoniker": "Models\\TimeViewModel.cs",
-              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\De Torres API\\TimeManagementAPI\\Models\\TimeViewModel.cs",
+              "ToolTip": "C:\\Users\\DE TORRES\\OneDrive\\Desktop\\New folder\\De-Torres-API\\TimeManagementAPI\\Models\\TimeViewModel.cs",
               "RelativeToolTip": "Models\\TimeViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
