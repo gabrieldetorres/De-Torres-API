@@ -15,7 +15,7 @@ namespace TimeManagementAPI.Controllers
 
         public Times(EmailService emailService)
         {
-            _appservice = new OvertimeClass();
+            _appservice = new OvertimeClass(emailService);
             _emailService = emailService;
         }
 
@@ -37,7 +37,6 @@ namespace TimeManagementAPI.Controllers
 
             _appservice.AddTime(newTime);
 
-            _emailService.SendEmail(times.Id.ToString(), "someone@example.com"); // 👈 use a real recipient here
 
             return Ok(newTime);
         }

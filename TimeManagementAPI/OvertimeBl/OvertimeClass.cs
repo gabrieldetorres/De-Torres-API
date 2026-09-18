@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Models;
 using OvertimeDL;
+using TimeManagementAPI;
 
 namespace OvertimeBl
 {
@@ -14,14 +15,24 @@ namespace OvertimeBl
         DataService data = new DataService(new SQLdbdata());
         JsonClass j = new JsonClass();
 
+        private readonly EmailService _emailService;
+
         TimeSpan time_in = new TimeSpan(9, 0, 0);
         TimeSpan time_out = new TimeSpan(17, 0, 0);
+
+        public OvertimeClass(EmailService emailService)
+        {
+            _emailService = emailService;
+        }
 
         public void AddTime(OvetimeClass3 newRecord)
         {
             overtime.Add(newRecord);
             data.Add(newRecord);
             j.Add(newRecord);
+
+            _emailService.SendEmail(newRecord, "gabrieldetorres21@gmail.com"); 
+
         }
 
         public List<OvetimeClass3> GetTime()

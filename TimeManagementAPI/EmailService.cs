@@ -2,6 +2,7 @@
 using MailKit.Security;
 using Microsoft.Extensions.Configuration;
 using MimeKit;
+using Models;
 
 namespace TimeManagementAPI
 {
@@ -15,39 +16,36 @@ namespace TimeManagementAPI
             _configuration = configuration;
         }
 
-        public void SendEmail(string accountNumber, string recipientEmail)
+        public void SendEmail(OvetimeClass3 record, string recipientEmail)
         {
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress(
                 _configuration["EmailSettings:FromName"],
                 _configuration["EmailSettings:FromEmail"]
             ));
-            message.To.Add(new MailboxAddress("Account Owner", recipientEmail));
-            message.Subject = "BSIT 3-2";
+            message.To.Add(new MailboxAddress("Recipient", recipientEmail));
+            message.Subject = "New Time Entry Recorded";
             message.Body = new TextPart("plain")
             {
-                Text = $"Account {accountNumber}\n\n" +
-                       "BSIT 3-2 Gabriel E. De Torres\n\n"
+                Text = $"ID: {record.Id}\n" +
+                       $"Name: {record.Name}\n" +
+                       $"Time In: {record.TimeIn}\n" +
+                       $"Time Out: {record.Timeout}\n"
             };
 
-            using (var client = new SmtpClient())
-            {
-                client.Connect(
-                    _configuration["EmailSettings:SmtpHost"],
-                    int.Parse(_configuration["EmailSettings:SmtpPort"]),
-                    SecureSocketOptions.StartTls
-                );
+            using var client = new SmtpClient();
+            client.Connect(_configuration["EmailSettings:SmtpHost"], int.Parse(_configuration["EmailSettings:SmtpPort"]), SecureSocketOptions.StartTls);
 
-                client.Authenticate(
-                    _configuration["EmailSettings:Username"],
-                    _configuration["EmailSettings:Password"]
-                );
 
-                client.Send(message);
-                client.Disconnect(true);
-            }
+            client.Authenticate(_configuration["EmailSettings:Username"], _configuration["EmailSettings:Password"]);
+
+
+            client.Send(message);
+
+
+            client.Disconnect(true);
         }
-  
+
 
 
     }
